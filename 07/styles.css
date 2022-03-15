@@ -1,26 +1,7 @@
-body{
-	font-size: 40px;
-}
-ul {
+svg{
 	margin-left:auto;
 	margin-right: auto;
 	text-align: center;
-	width: 200px;
-}
-.line-path{
-	fill: #71bfb1;
-	stroke: black;
-	stroke-width: 3;
-}
-
-.line-path line
-{
- stroke: black;
- stroke-width: 3;
-}
-
-.line-path path
-{
-	fill: None;
-	stroke-linejoin: round;
+	display: block;
+	background-color: #c0cfc9; 
 }
