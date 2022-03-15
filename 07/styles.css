@@ -4,4 +4,13 @@ svg{
 	text-align: center;
 	display: block;
 	background-color: #c0cfc9; 
+	margin-top: 20px;
+}
+
+rect {
+	fill: steelblue;
+}
+
+text {
+	font-size: 1.4em;
 }

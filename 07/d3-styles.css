@@ -8,3 +8,7 @@ svg {
     text-align: center;
     display: block;
 }
+
+rect {
+	fill: steelblue;
+}
