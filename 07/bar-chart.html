@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Car report</title>
+    <link rel="stylesheet" type="text/css" href="bar-styles.css">
+    <script type="text/javascript" src="https://unpkg.com/d3@7.3.0/dist/d3.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bar-chart.js"></script>
+</head>
+<body class="content">
+	<div>
+		<select id="ddlMax" onchange="reloadGraph()">
+			<option value="5">Max 5</option>
+			<option value="10">Max 10</option>
+			<option value="15">Max 15</option>
+			<option value="All">All</option>
+		</select>
+	</div>
+	<div>
+		<svg width="960" height="500"></svg>
+	</div>
+</body>
+</html>

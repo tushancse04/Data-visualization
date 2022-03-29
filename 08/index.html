@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Car report</title>
+	<link rel="stylesheet" type="text/css" href="d3-styles.css">
+	<script type="text/javascript" src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
+</head>
+<body class="content">
+	<script type="text/javascript">
+		var data;
+		$.ajax({
+			url : 'http://127.0.0.1:5000/home',          
+			method: 'GET',
+			type: 'json',
+			data: {'id':1},
+			success: function (response) {
+				data = response;
+			},
+			error: function (error) {
+				console.log(error);
+			}
+		});
+	</script>
+	<svg>
+	</svg>
+</body>
+</html>
