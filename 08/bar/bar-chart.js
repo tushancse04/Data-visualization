@@ -1,10 +1,35 @@
+
+var csv_data,con_data,js_data;
+function get_data(){
+	con_data = [];
+	console.log('Hello World!');
+		$.ajax({
+		url : 'http://127.0.0.1:5000/home',          
+		method: 'GET',
+		type: 'json',
+		data: {'max':$('#ddlMax').val()},
+		success: function (response) {
+			console.log(response);
+			csv_data = JSON.parse(response);
+			for(i = 0; i < Object.keys(csv_data.Country).length; i++){
+				con_data.push({Country:csv_data.Country[i],Population:csv_data.Population[i]});
+			}
+			reload();
+		},
+		error: function (error) {
+			console.log(error);
+		}
+	});
+}
+
+
 function reloadGraph(){
 	max = $('#ddlMax').val();
 }
 
 
 
-var svg;
+var svg,csv_data;
 var height,width,yscale,innerheight,innerwidth;
 var margin = {left:70,right:20,top:20,bottom:20};
 
@@ -39,21 +64,19 @@ render = data => {
 
 };
 
-function reload(max){
+function reload(){
+	d3.select('svg').html('');
 	svg = d3.select('svg');
 	height = +svg.attr('height');
 	width = +svg.attr('width');
 	innerwidth = width - margin.left - margin.right;
 	innerheight = height - margin.top - margin.bottom;
-	d3.csv('data.csv').then(data =>{
-		data.forEach(d =>{
-			d.Population = +d.Population;
-		});
-		render(data);
-	});
+	render(con_data);
 }
 
 $(document).ready(function(){
+
+	get_data();
 	max = 10;
-	reload(max);
+	//reload(max);
 });

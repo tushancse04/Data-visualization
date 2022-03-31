@@ -10,8 +10,9 @@ CORS(app)
 
 @app.route('/home',methods=['GET'])
 def home():
-	data = pd.read_csv('data.csv')
-	app.logger.info('%d logged in successfully ' + str(request.args.get('id')))
+	mx = int(request.args.get('max'))
+	data = pd.read_csv('data.csv').head(mx)
+	#app.logger.info('%d logged in successfully ' + str())
 	return data.to_json()
 
 app.run()
