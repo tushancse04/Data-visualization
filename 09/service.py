@@ -25,6 +25,12 @@ def get_data():
 	return get_web_data(mx).to_json()
 
 
+@app.route('/car_data',methods=['GET'])
+def car_data():
+	mx = int(request.args.get('max'));
+	app.logger.info(mx)
+	return get_car_data(mx).to_json()
+
 app.run()
 
 
