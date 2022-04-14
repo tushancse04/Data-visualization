@@ -1,10 +1,52 @@
-function load(){
-      var data = [
-      {name: "USA", value: 40},
-      {name: "UK", value: 20},
-      {name: "Canada", value: 30},
-      {name: "Maxico", value: 10},
-    ];
+
+var csv_data,con_data;
+function get_data(){
+  con_data = [];
+    $.ajax({
+    url : 'http://127.0.0.1:5000/donut_data',          
+    method: 'GET',
+    type: 'json',
+    data: {},
+    success: function (response) {
+      csv_data = JSON.parse(response);
+      for(i = 0; i < Object.keys(csv_data.rows).length; i++){
+        con_data.push({name:csv_data.species[i] + '/' + csv_data.island[i],value:csv_data.rows[i]});
+      }
+      load(con_data);
+    },
+    error: function (error) {
+      console.log(error);
+    }
+  });
+}
+
+
+function get_detail_data(){
+  con_data = [];
+    $.ajax({
+    url : 'http://127.0.0.1:5000/detail_data',          
+    method: 'GET',
+    type: 'json',
+    data: {},
+    success: function (response) {
+      console.log(response);
+      csv_data = JSON.parse(response);
+      for(i = 0; i < Object.keys(csv_data.rows).length; i++){
+        con_data.push({name:csv_data.species[i] + '/' + csv_data.island[i],value:csv_data.rows[i]});
+      }
+      load(con_data);
+    },
+    error: function (error) {
+      console.log(error);
+    }
+  });
+}
+
+
+
+
+function load(con_data){
+      var data = con_data;
     var text = "";
 
     var width = 260;
@@ -74,7 +116,13 @@ function load(){
             .style("cursor", "none")  
             .style("fill", color(this._current));
         })
-      .each(function(d, i) { this._current = i; });
+       .on("click", function(){
+        var url = "http://localhost:8080/detail.html";
+        //url += d.link_id;
+        $(location).attr('href', url);
+        window.location = url;    
+    })
+    .each(function(d, i) { this._current = i; });
 
 
     g.append('text')
@@ -84,5 +132,6 @@ function load(){
 }
 
 $(document).ready(function(){
-  load();
+  get_data();
+  get_detail_data();
 });
