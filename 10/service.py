@@ -31,6 +31,12 @@ def car_data():
 	app.logger.info(mx)
 	return get_car_data(mx).to_json()
 
+
+@app.route('/penguin_data',methods=['GET'])
+def penguin_data():
+	id = int(request.args.get('id'));
+	return get_penguins_data()
+
 app.run()
 
 
