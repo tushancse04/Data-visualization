@@ -1,5 +1,5 @@
 
-var csv_data,con_data,s;
+var csv_data,con_data;
 function get_data(){
   con_data = [];
     $.ajax({
@@ -29,7 +29,7 @@ function get_detail_data(){
     type: 'json',
     data: {},
     success: function (response) {
-      console.log(response);
+      //console.log(response);
       csv_data = JSON.parse(response);
       for(i = 0; i < Object.keys(csv_data.rows).length; i++){
         con_data.push({name:csv_data.species[i] + '/' + csv_data.island[i],value:csv_data.rows[i]});
@@ -116,15 +116,13 @@ function load(con_data){
             .style("cursor", "none")  
             .style("fill", color(this._current));
         })
-      .on("click", function(d) {
-          s = d;
-          console.log(d);
-          d = d['data'].name.split('/');
-          var url = 'http://localhost:8080/detail.html?species=' + d[0] + '&island=' + d[1];
-          //url += d.link_id;
-          $(location).attr('href', url);
-          window.location = url;    
-        })
+       .on("click", function(d){
+        console.log(d);
+        //var url = "http://localhost:8080/detail.html";
+        //url += d.link_id;
+        //$(location).attr('href', url);
+        //window.location = url;    
+    })
     .each(function(d, i) { this._current = i; });
 
 
@@ -136,4 +134,5 @@ function load(con_data){
 
 $(document).ready(function(){
   get_data();
+  //get_detail_data();
 });
