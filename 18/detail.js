@@ -12,6 +12,11 @@ function get_detail_data(){
     data: {'species':species,'island':island},
     success: function (response) {
       d3.select('#container').html(response);
+      $('.dataframe').addClass('table table-striped');
+      $('.dataframe').addClass('sortable');
+       $('.dataframe').attr('id','dtable');
+       table = document.getElementById('dtable');
+      sorttable.makeSortable(table);
     },
     error: function (error) {
       console.log(error);
@@ -20,7 +25,24 @@ function get_detail_data(){
 }
 
 
-
+function search() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("dtable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[6];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
 
 
 

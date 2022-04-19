@@ -1,5 +1,5 @@
 
-var csv_data,con_data;
+var csv_data,con_data,dt;
 function get_data(){
   con_data = [];
     $.ajax({
@@ -117,11 +117,9 @@ function load(con_data){
             .style("fill", color(this._current));
         })
        .on("click", function(d){
-        console.log(d);
-        //var url = "http://localhost:8080/detail.html";
-        //url += d.link_id;
-        //$(location).attr('href', url);
-        //window.location = url;    
+        d = d.data.name.split('/') //Adelie/Dream
+        var url = "http://localhost:8080/detail.html?species=" + d[0] + '&island=' + d[1];;
+        window.location = url;    
     })
     .each(function(d, i) { this._current = i; });
 
