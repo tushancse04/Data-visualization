@@ -14,3 +14,11 @@
 .pie .value-text{
   font-size: 3em;
 }
+
+#chart {
+	margin: auto;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 15%;
+}
