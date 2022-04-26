@@ -5,3 +5,9 @@ function load_menu(){
   } });
 
 }
+
+$(document).ready(function(){
+  load_menu();
+});
+
+

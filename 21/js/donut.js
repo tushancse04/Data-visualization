@@ -139,7 +139,6 @@ function load_menu(){
 }
 
 $(document).ready(function(){
-  load_menu();
   get_data();
   //get_detail_data();
 });
