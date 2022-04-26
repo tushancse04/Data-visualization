@@ -1,75 +1,159 @@
-
-
-nav {
-  position: absolute;
-  width: 100%;
-  top: 10%;  
-
-}
-nav ul {
-  background: #9873f7;
-  list-style: none;
+html, body {
   margin: 0;
   padding: 0;
-}
-nav ul li {
-  position: relative;
-  display: inline-block;
-  margin-right: -4px;
-  text-align: center;
-}
-nav ul li:first-child a {
-  background: #9873f7;
-  width: 49px;
-  padding: 15px 0;
-}
-nav ul li:last-child {
-  margin: 0;
-}
-nav ul li a {
-  display: block;
-  background: #9873f7;
-  padding: 15px 20px;
-  color: #fff;
-  font-size: 14px;
-  text-decoration: none;
-  transition: 0.2s linear;
-}
-nav ul li a:hover {
-  background: #7e57e1;
-}
-nav ul li ul {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 240px;
-  border-bottom: 4px solid #9873f7;
-}
-nav ul li ul li {
-  display: block;
-  width: 100%;
-  margin: 0;
-  text-align: left;
-}
-nav ul li ul li a {
-  display: block;
-  background: #3a3a3a;
-  padding: 10px 15px;
-}
-nav ul li ul li a:first-child {
-  background: #3a3a3a;
-  width: auto;
-  border-left: 4px solid transparent;
-  padding: 10px 15px;
-  font-size: 14px;
-}
-nav ul li ul li a:hover {
-  background: #333333;
-  border-left: 4px solid #9873f7;
+  font-family: sans-serif;
+  background: #fff;
 }
 
-iframe {
-  height: 85vh;
-  width: 100vw;
-  margin-top: 15vh;
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.main {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.hamburger {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 20px;
+  
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+    background: #f953c6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #da2287, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #da2287, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transform: rotate(0deg);
+    transition: all 0.4s cubic-bezier(0.54, -0.10, 0.57, 0.57);
+  }
+  
+  .hamburger-input {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+  }
+  
+  .hamburger-line {
+    width: 100%;
+    background: #fff;
+    height: 2px;
+    display: block;
+    border-radius: 6px;
+    transition: transform 0.4s cubic-bezier(0.54, -0.81, 0.57, 0.57);
+    position: relative;
+    
+    &.first,
+    &.third {
+      width: 50%;
+    }
+    
+    &.third {
+      margin-left: 50%;
+      transform-origin: left;
+    }
+  }
+}
+
+.menu-button-wrapper {
+  position: relative;
+  display: inline-block;
+  
+  .item-list {
+    position: absolute;
+    top: 90px;
+    transform: translateX(-50%) scale(0);
+    transform-origin: center;
+    transition: all 0.4s cubic-bezier(0.54, -0.10, 0.57, 0.57);
+    background-color: #303242;
+    color: #fff;
+    width: 200px;
+    left: 50%;
+    padding: 15px 0;
+    text-align: left;
+    border-radius: 100px;
+    font-weight: 300;
+    opacity: 0;
+    user-select: none;
+    
+    div {
+      padding: 10px 30px;
+      cursor: pointer;
+    }
+  }
+  
+  .menu-button {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+  }
+}
+
+.menu-button {
+  &:checked ~ .item-list {
+    transform: translateX(-50%) scale(1);
+    border-radius: 20px;
+    opacity: 1;
+    user-select: auto;
+  }  
+  
+  &:checked ~ .icon-wrapper .hamburger-line.second {
+    transform: rotate(-45deg); 
+  }
+
+  &:checked ~ .icon-wrapper .hamburger-line.first {
+    transform: translate(2px, 8px) rotate(-135deg);
+  }
+
+  &:checked ~ .icon-wrapper .hamburger-line.third {
+    transform: translate(11px, -3px) rotate(-135deg);
+  }
+  
+  &:checked ~ .icon-wrapper .hamburger:before {
+    transform: rotate(45deg);
+  }
+}
+
+
+// signature
+.signature-wrapper {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  text-align: center;
+  
+  .signature-title {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: #444;
+  }
+  
+  .signature-link {
+    color: #444;
+    display: inline-block;
+    margin: 20px 0 10px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    border-bottom: solid 2px #444; 
+  }
 }

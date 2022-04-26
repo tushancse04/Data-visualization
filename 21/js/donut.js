@@ -10,7 +10,7 @@ function get_data(){
     success: function (response) {
       csv_data = JSON.parse(response);
       for(i = 0; i < Object.keys(csv_data.rows).length; i++){
-        con_data.push({name:csv_data.species[i] ,value:csv_data.rows[i]});
+        con_data.push({name:csv_data.species[i] + '/' + csv_data.island[i],value:csv_data.rows[i]});
       }
       load(con_data);
     },
@@ -19,8 +19,6 @@ function get_data(){
     }
   });
 }
-
-
 
 
 function get_detail_data(){
@@ -132,7 +130,16 @@ function load(con_data){
       .text(text);
 }
 
+function load_menu(){
+  $.ajax({ url: 'menu.html', success: function(data) { 
+    d3.select('#menu').html(data); 
+
+  } });
+
+}
+
 $(document).ready(function(){
+  load_menu();
   get_data();
   //get_detail_data();
 });
