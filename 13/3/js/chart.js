@@ -14,7 +14,7 @@ function load()
           yMax = d3.max(yz, function(y) { return d3.max(y); }),
           y1Max = d3.max(y01z, function(y) { return d3.max(y, function(d) { return d[1]; }); });
 
-      var svg = d3.select("svg"),
+      var svg = d3.select("#pie_chart"),
           margin = {top: 40, right: 10, bottom: 20, left: 10},
           width = +svg.attr("width") - margin.left - margin.right,
           height = +svg.attr("height") - margin.top - margin.bottom,

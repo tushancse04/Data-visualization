@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cCSVArray xmlns:d="http://www.kuju.com/TnT/2003/Delta" d:version="1.0" d:id="1">
+	<CSVItem>
+		<cCSVItem d:id="2">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403001</Name>
+		</cCSVItem>
+		<cCSVItem d:id="3">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403002</Name>
+		</cCSVItem>
+		<cCSVItem d:id="4">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403003</Name>
+		</cCSVItem>
+		<cCSVItem d:id="5">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403004</Name>
+		</cCSVItem>
+		<cCSVItem d:id="6">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403005</Name>
+		</cCSVItem>
+		<cCSVItem d:id="7">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403006</Name>
+		</cCSVItem>
+		<cCSVItem d:id="8">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403007</Name>
+		</cCSVItem>
+		<cCSVItem d:id="9">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403008</Name>
+		</cCSVItem>
+		<cCSVItem d:id="10">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403009</Name>
+		</cCSVItem>
+		<cCSVItem d:id="11">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403010</Name>
+		</cCSVItem>
+		<cCSVItem d:id="12">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403011</Name>
+		</cCSVItem>
+		<cCSVItem d:id="13">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403012</Name>
+		</cCSVItem>
+		<cCSVItem d:id="14">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403013</Name>
+		</cCSVItem>
+		<cCSVItem d:id="15">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403014</Name>
+		</cCSVItem>
+		<cCSVItem d:id="16">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403015</Name>
+		</cCSVItem>
+		<cCSVItem d:id="17">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403016</Name>
+		</cCSVItem>
+		<cCSVItem d:id="18">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403017</Name>
+		</cCSVItem>
+		<cCSVItem d:id="19">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403018</Name>
+		</cCSVItem>
+		<cCSVItem d:id="20">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403019</Name>
+		</cCSVItem>
+		<cCSVItem d:id="21">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403020</Name>
+		</cCSVItem>
+		<cCSVItem d:id="22">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403021</Name>
+		</cCSVItem>
+		<cCSVItem d:id="23">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403022</Name>
+		</cCSVItem>
+		<cCSVItem d:id="24">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403023</Name>
+		</cCSVItem>
+		<cCSVItem d:id="25">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403024</Name>
+		</cCSVItem>
+		<cCSVItem d:id="26">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403025</Name>
+		</cCSVItem>
+		<cCSVItem d:id="27">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403026</Name>
+		</cCSVItem>
+		<cCSVItem d:id="28">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403027</Name>
+		</cCSVItem>
+		<cCSVItem d:id="29">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403028</Name>
+		</cCSVItem>
+		<cCSVItem d:id="30">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403029</Name>
+		</cCSVItem>
+		<cCSVItem d:id="31">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403030</Name>
+		</cCSVItem>
+		<cCSVItem d:id="32">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403031</Name>
+		</cCSVItem>
+		<cCSVItem d:id="33">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403032</Name>
+		</cCSVItem>
+		<cCSVItem d:id="34">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403033</Name>
+		</cCSVItem>
+		<cCSVItem d:id="35">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403034</Name>
+		</cCSVItem>
+		<cCSVItem d:id="36">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403035</Name>
+		</cCSVItem>
+		<cCSVItem d:id="37">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403036</Name>
+		</cCSVItem>
+		<cCSVItem d:id="38">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403037</Name>
+		</cCSVItem>
+		<cCSVItem d:id="39">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403038</Name>
+		</cCSVItem>
+		<cCSVItem d:id="40">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403039</Name>
+		</cCSVItem>
+		<cCSVItem d:id="41">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403040</Name>
+		</cCSVItem>
+		<cCSVItem d:id="42">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403041</Name>
+		</cCSVItem>
+		<cCSVItem d:id="43">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403042</Name>
+		</cCSVItem>
+		<cCSVItem d:id="44">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403043</Name>
+		</cCSVItem>
+		<cCSVItem d:id="45">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403044</Name>
+		</cCSVItem>
+		<cCSVItem d:id="46">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403045</Name>
+		</cCSVItem>
+		<cCSVItem d:id="47">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403046</Name>
+		</cCSVItem>
+		<cCSVItem d:id="48">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403047</Name>
+		</cCSVItem>
+		<cCSVItem d:id="49">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403048</Name>
+		</cCSVItem>
+		<cCSVItem d:id="50">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403049</Name>
+		</cCSVItem>
+		<cCSVItem d:id="51">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403050</Name>
+		</cCSVItem>
+		<cCSVItem d:id="52">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403051</Name>
+		</cCSVItem>
+		<cCSVItem d:id="53">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403052</Name>
+		</cCSVItem>
+		<cCSVItem d:id="54">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403053</Name>
+		</cCSVItem>
+		<cCSVItem d:id="55">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403054</Name>
+		</cCSVItem>
+		<cCSVItem d:id="56">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403055</Name>
+		</cCSVItem>
+		<cCSVItem d:id="57">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403056</Name>
+		</cCSVItem>
+		<cCSVItem d:id="58">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403057</Name>
+		</cCSVItem>
+		<cCSVItem d:id="59">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403058</Name>
+		</cCSVItem>
+		<cCSVItem d:id="60">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">403059</Name>
+		</cCSVItem>
+		<cCSVItem d:id="61">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">406030</Name>
+		</cCSVItem>
+		<cCSVItem d:id="62">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410001</Name>
+		</cCSVItem>
+		<cCSVItem d:id="63">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410002</Name>
+		</cCSVItem>
+		<cCSVItem d:id="64">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410003</Name>
+		</cCSVItem>
+		<cCSVItem d:id="65">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410004</Name>
+		</cCSVItem>
+		<cCSVItem d:id="66">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410005</Name>
+		</cCSVItem>
+		<cCSVItem d:id="67">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410006</Name>
+		</cCSVItem>
+		<cCSVItem d:id="68">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410007</Name>
+		</cCSVItem>
+		<cCSVItem d:id="69">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410008</Name>
+		</cCSVItem>
+		<cCSVItem d:id="70">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410009</Name>
+		</cCSVItem>
+		<cCSVItem d:id="71">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410010</Name>
+		</cCSVItem>
+		<cCSVItem d:id="72">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410011</Name>
+		</cCSVItem>
+		<cCSVItem d:id="73">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410012</Name>
+		</cCSVItem>
+		<cCSVItem d:id="74">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410013</Name>
+		</cCSVItem>
+		<cCSVItem d:id="75">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410014</Name>
+		</cCSVItem>
+		<cCSVItem d:id="76">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410015</Name>
+		</cCSVItem>
+		<cCSVItem d:id="77">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410016</Name>
+		</cCSVItem>
+		<cCSVItem d:id="78">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410017</Name>
+		</cCSVItem>
+		<cCSVItem d:id="79">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410018</Name>
+		</cCSVItem>
+		<cCSVItem d:id="80">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410019</Name>
+		</cCSVItem>
+		<cCSVItem d:id="81">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410020</Name>
+		</cCSVItem>
+		<cCSVItem d:id="82">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410021</Name>
+		</cCSVItem>
+		<cCSVItem d:id="83">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410022</Name>
+		</cCSVItem>
+		<cCSVItem d:id="84">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410023</Name>
+		</cCSVItem>
+		<cCSVItem d:id="85">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410024</Name>
+		</cCSVItem>
+		<cCSVItem d:id="86">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410025</Name>
+		</cCSVItem>
+		<cCSVItem d:id="87">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410026</Name>
+		</cCSVItem>
+		<cCSVItem d:id="88">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410027</Name>
+		</cCSVItem>
+		<cCSVItem d:id="89">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410028</Name>
+		</cCSVItem>
+		<cCSVItem d:id="90">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410029</Name>
+		</cCSVItem>
+		<cCSVItem d:id="91">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410030</Name>
+		</cCSVItem>
+		<cCSVItem d:id="92">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410031</Name>
+		</cCSVItem>
+		<cCSVItem d:id="93">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410032</Name>
+		</cCSVItem>
+		<cCSVItem d:id="94">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410033</Name>
+		</cCSVItem>
+		<cCSVItem d:id="95">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410034</Name>
+		</cCSVItem>
+		<cCSVItem d:id="96">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410035</Name>
+		</cCSVItem>
+		<cCSVItem d:id="97">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410036</Name>
+		</cCSVItem>
+		<cCSVItem d:id="98">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410037</Name>
+		</cCSVItem>
+		<cCSVItem d:id="99">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410038</Name>
+		</cCSVItem>
+		<cCSVItem d:id="100">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410039</Name>
+		</cCSVItem>
+		<cCSVItem d:id="101">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410040</Name>
+		</cCSVItem>
+		<cCSVItem d:id="102">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410041</Name>
+		</cCSVItem>
+		<cCSVItem d:id="103">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410042</Name>
+		</cCSVItem>
+		<cCSVItem d:id="104">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410043</Name>
+		</cCSVItem>
+		<cCSVItem d:id="105">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410044</Name>
+		</cCSVItem>
+		<cCSVItem d:id="106">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410045</Name>
+		</cCSVItem>
+		<cCSVItem d:id="107">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410046</Name>
+		</cCSVItem>
+		<cCSVItem d:id="108">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410047</Name>
+		</cCSVItem>
+		<cCSVItem d:id="109">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410048</Name>
+		</cCSVItem>
+		<cCSVItem d:id="110">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410049</Name>
+		</cCSVItem>
+		<cCSVItem d:id="111">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410050</Name>
+		</cCSVItem>
+		<cCSVItem d:id="112">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410051</Name>
+		</cCSVItem>
+		<cCSVItem d:id="113">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410052</Name>
+		</cCSVItem>
+		<cCSVItem d:id="114">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410053</Name>
+		</cCSVItem>
+		<cCSVItem d:id="115">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410054</Name>
+		</cCSVItem>
+		<cCSVItem d:id="116">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410055</Name>
+		</cCSVItem>
+		<cCSVItem d:id="117">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410056</Name>
+		</cCSVItem>
+		<cCSVItem d:id="118">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410057</Name>
+		</cCSVItem>
+		<cCSVItem d:id="119">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410058</Name>
+		</cCSVItem>
+		<cCSVItem d:id="120">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410059</Name>
+		</cCSVItem>
+		<cCSVItem d:id="121">
+			<X d:type="sFloat32">0</X>
+			<Y d:type="sFloat32">0</Y>
+			<Name d:type="cDeltaString">410060</Name>
+		</cCSVItem>
+	</CSVItem>
+</cCSVArray>

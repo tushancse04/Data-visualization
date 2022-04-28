@@ -384,8 +384,8 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                Earnings (Monthly)</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+                                                Total items</div>
+                                            <div id="id_total_items" class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-calendar fa-2x text-gray-300"></i>
@@ -490,7 +490,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <div class="chart-area">
-                                        <svg width="960" height="500"></svg>
+                                        <svg width="704" height="320"></svg>
                                     </div>
                                 </div>
                             </div>
@@ -521,7 +521,9 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <div class="chart-pie pt-4 pb-2">
-                                        <canvas id="myPieChart"></canvas>
+                                        <canvas id="myPieChart">
+                                            <svg id="pie_chart" wid></svg>
+                                        </canvas>
                                     </div>
                                     <div class="mt-4 text-center small">
                                         <span class="mr-2">
